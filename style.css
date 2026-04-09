@@ -1,3 +1,17 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+header .logo_area{
+    display: grid;
+    align-items: center;
+}
+
+
 header img{
     width: 100px;
     height: auto;
@@ -7,6 +21,8 @@ header h1{
     font-size: 20px;
     color: green;
 }
-nav{
-    display:flex;
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
 }
